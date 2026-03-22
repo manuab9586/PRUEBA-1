@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Inmobiliaria Mayo</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1560518883-ce09059eeffa') no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: none;
+    background: #e67e22;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* SECTION */
+.section {
+    padding: 60px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: auto;
+    width: 85%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+    margin-top: 20px;
+}
+</style>
+
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <div>
+        <h1>GRUPO 5 INMOBILIARIA</h1>
+        <p>Análisis inteligente del mercado inmobiliario</p>
+        <button onclick="document.getElementById('dashboard').scrollIntoView()">Ver Dashboard</button>
+    </div>
+</div>
+
+<!-- DASHBOARD -->
+<div class="section" id="dashboard">
+    <div class="card">
+        <h2>Dashboard Interactivo</h2>
+        <p>Explora los datos en tiempo real</p>
+
+        <!-- 🔴 PEGA TU IFRAME AQUÍ -->
+        <iframe src=<iframe title="TRABAJO GRUPAL FINAL FINAL" width="800" height="486" src="https://app.powerbi.com/view?r=eyJrIjoiMDAyYjE0N2ItNTJlYy00ZjIzLWFkN2UtNTdmOTkyZjNjMTRiIiwidCI6ImVjZmQ5ZDliLWU4OWMtNDQ2ZS05NDYyLWFlOWRhM2E2ZDI1ZCIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>></iframe>
+
+    </div>
+</div>
+
+</body>
+</html>
